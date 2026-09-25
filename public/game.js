@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pixel Quest</title>
-<style>
-  html, body { margin: 0; height: 100%; overflow: hidden; background: #07061a; }
-  canvas {
-    position: fixed; inset: 0; width: 100vw; height: 100vh; display: block;
-    cursor: none; touch-action: none;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-  }
-</style>
-</head>
-<body>
-<canvas id="screen"></canvas>
-<script>
 (() => {
 'use strict';
 
@@ -2573,6 +2554,3 @@ function frame(now) {
 }
 requestAnimationFrame(frame);
 })();
-</script>
-</body>
-</html>

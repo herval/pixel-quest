@@ -1,0 +1,8 @@
+{
+  "name": "pixel-quest",
+  "private": true,
+  "description": "Pixel-art side-scroller (wizard, knight, archer) in vanilla JS + Canvas 2D",
+  "scripts": {
+    "dev": "npx --yes serve public -l 3000"
+  }
+}

@@ -1,0 +1,8 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #07061a; }
+canvas {
+  position: fixed; inset: 0; width: 100vw; height: 100vh; display: block;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+/* The game draws its own crosshair and handles touch itself */
+canvas.game { cursor: none; touch-action: none; }
